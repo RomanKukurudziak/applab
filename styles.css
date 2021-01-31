@@ -19,6 +19,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 110px;
 }
 
 .section-header-nav {
@@ -134,7 +135,7 @@ body {
   margin-bottom: 25px;
 }
 
-.text {
+.description {
   color: #616368;
   font-family: Poppins;
   font-size: 18px;
@@ -179,6 +180,7 @@ body {
 
 .section-trusted {
   max-width: 940px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,14 +191,94 @@ body {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
+  margin: 0 auto 50px auto;
 }
 
 .companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
 }
 
-.company {
+.title {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
 }
 
-embed {
-  display: block;
+.title__red {
+  color: #f55767;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title__blue {
+  color: #2563ff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.title__green {
+  color: #2563ff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feture-icon {
+  color: blue;
+}
+
+.section-features {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.features-content {
+  max-width: 450px;
+}
+
+.feature-text {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 90px;
+}
+
+.feature-icon {
+  margin-right: 45px;
+}
+
+.feature-title {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.text {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.phone-2 {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 50px;
 }
