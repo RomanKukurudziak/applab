@@ -1,5 +1,9 @@
 @import 'normalize.css';
 
+ul {
+  padding: 0;
+}
+
 span {
   margin: 0;
 }
@@ -9,10 +13,18 @@ body {
 }
 
 .section-header {
-  height: 100hv;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-header-nav {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1170px;
 }
 
 .section-header-logo {
@@ -22,21 +34,27 @@ body {
   line-height: 44px;
 }
 
+.section-header-logo {
+  cursor: pointer;
+}
+
 .section-header-logo__app {
-  color: #242f51;
+  color: #fcae61;
 }
 
 .section-header-logo__lab {
-  color: #fcae61;
+  color: #242f51;
 }
 
 .section-header-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
+  width: 690px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -50,20 +68,111 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 44px;
+  text-decoration: none;
 }
 
 .section-haeder-button {
+  display: block;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 57px;
   border-radius: 29px;
   background-color: #2500f9;
   border: none;
   color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section-haeder-button:hover {
+  cursor: pointer;
 }
 
 .section-header-content {
-  height: 100vh;
-  background-image: url(/img/header-bg.png);
-  background-position: 50% 50%;
-  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1100px;
+}
+
+.section-header-content__info {
+  flex-basis: 55%;
+  margin: auto 0 auto 0;
+  padding-left: 35px;
+}
+
+.section-header-content__phone {
+  display: flex;
+  flex-basis: 45%;
+  justify-content: flex-end;
+}
+
+.award {
+  padding-right: 48px;
+  padding-left: 48px;
+  height: 35px;
+  width: fit-content;
+  border-radius: 18px;
+  background-color: #e2eaed;
+  display: flex;
+  align-items: center;
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.title-big {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  margin-bottom: 25px;
+}
+
+.text {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.demo {
+  color: #2500f9;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 27px;
+}
+
+.demo:hover {
+  cursor: pointer;
+}
+
+.phone {
+  display: block;
+}
+
+.content-end {
+  display: flex;
+  align-items: center;
+}
+
+.fas {
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39px;
+  height: 35px;
+  border-radius: 18px;
+  background-color: #feaa25;
 }
