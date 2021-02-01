@@ -14,8 +14,8 @@ body {
 
 .section-header {
   width: 100%;
-  height: 865px;
-  background-image: url(/img/header-bg.png);
+  height: 105vh;
+  background-image: url(/img/bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,7 +149,7 @@ body {
   color: #2500f9;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 27px;
 }
 
@@ -190,7 +190,7 @@ body {
   color: #242f51;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 auto 50px auto;
 }
 
@@ -242,9 +242,11 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+  padding-right: 50px;
 }
 
 .features-content {
+  padding-top: 55px;
   max-width: 450px;
 }
 
@@ -258,7 +260,7 @@ body {
 }
 
 .feature-icon {
-  margin-right: 45px;
+  margin-right: 30px;
 }
 
 .feature-title {
@@ -267,6 +269,7 @@ body {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 25px;
+  padding-right: 150px;
 }
 
 .text {
@@ -281,4 +284,195 @@ body {
   display: flex;
   margin-left: 90px;
   margin-right: 50px;
+}
+
+.section-smart {
+  max-width: 970px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 110px auto;
+}
+
+.smart-title {
+  padding-right: 78px;
+  display: flex;
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.border {
+  height: 147px;
+  border-right: 1px solid #4b4a48;
+  opacity: 0.39;
+}
+
+.smart-text {
+  padding-left: 48px;
+  display: flex;
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.section-items {
+  max-width: 1025px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 110px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 120px;
+}
+
+.item:last-child {
+  padding-right: 0;
+}
+
+.item-icon {
+  margin-bottom: 47px;
+}
+
+.item-title {
+  margin-bottom: 15px;
+}
+
+.section-designed {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 2px #e5e6e5 0.44;
+  margin-bottom: 70px;
+}
+
+.designed-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.designed-title {
+  max-width: 350px;
+  display: flex;
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+
+.designed-text {
+  max-width: 406px;
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.why-content {
+  max-width: 640px;
+  text-align: center;
+  margin: 110px auto 110px auto;
+}
+
+.why-title {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0 95px 35px 95px;
+  line-height: 46px;
+}
+
+.line {
+  border-bottom: solid 2px rgb(229, 230, 229, 0.44);
+}
+
+.why-title-text {
+  display: flex;
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.why-icon {
+  margin-bottom: 36px;
+}
+
+.section-items-why {
+  max-width: 1025px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.why {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.why-title-item {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.why-text-item {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.ultimate-content {
+  max-width: 400px;
+}
+
+.ultimate-title {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.ultimate-title-text {
+  display: flex;
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.section-ultimate {
+  display: flex;
+  flex-direction: row;
 }
