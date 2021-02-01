@@ -473,6 +473,7 @@ body {
 }
 
 .section-ultimate {
+  max-width: 1400px;
   display: flex;
   flex-direction: row;
 }
