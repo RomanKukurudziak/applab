@@ -1,9 +1,5 @@
 @import 'normalize.css';
 
-ul {
-  padding: 0;
-}
-
 span {
   margin: 0;
 }
@@ -23,8 +19,24 @@ body {
   padding-right: 20px;
 }
 
+.text {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.title {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
 /*Header*/
-.section-header-wrapper {
+.header-wrapper {
   background-image: url(img/bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +59,7 @@ body {
   max-width: 1170px;
 }
 
-.section-header-logo {
+.header-logo {
   font-family: Poppins;
   font-size: 30px;
   font-weight: 700;
@@ -58,11 +70,11 @@ body {
   cursor: pointer;
 }
 
-.section-header-logo__app {
+.logo-app {
   color: #fcae61;
 }
 
-.section-header-logo__lab {
+.logo-lab {
   color: #242f51;
 }
 
@@ -82,13 +94,17 @@ body {
   align-items: center;
 }
 
-.nav__item {
+.nav-item {
   color: #242f51;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 44px;
   text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #fcae61;
 }
 
 .btn {
@@ -110,7 +126,7 @@ body {
   cursor: pointer;
 }
 
-.section-header-content {
+.header-content {
   margin: auto;
   padding-right: 50px;
   max-width: 1100px;
@@ -164,10 +180,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin-left: 27px;
+  text-decoration: none;
 }
 
 .demo:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .phone {
@@ -269,11 +287,6 @@ body {
 }
 
 .feature-text {
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
   margin-bottom: 90px;
 }
 
@@ -290,15 +303,7 @@ body {
   padding-right: 150px;
 }
 
-.text {
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-}
-
-.phone-2 {
+.features-phone {
   display: flex;
   padding-left: 80px;
   padding-right: 30px;
@@ -316,11 +321,7 @@ body {
 
 .smart-title {
   padding-right: 78px;
-  color: #242f51;
-  font-family: Poppins;
   font-size: 40px;
-  font-weight: 600;
-  line-height: 50px;
 }
 
 .border {
@@ -330,11 +331,6 @@ body {
 
 .smart-text {
   padding-left: 48px;
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
 }
 
 .section-items {
@@ -386,21 +382,11 @@ body {
 .designed-title {
   max-width: 350px;
   display: flex;
-  color: #242f51;
-  font-family: Poppins;
-  font-size: 35px;
-  font-weight: 600;
-  line-height: 46px;
   margin-bottom: 30px;
 }
 
 .designed-text {
   max-width: 406px;
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
   margin-bottom: 40px;
 }
 
@@ -413,12 +399,7 @@ body {
 }
 
 .why-title {
-  color: #242f51;
-  font-family: Poppins;
-  font-size: 36px;
-  font-weight: 600;
   padding: 0 95px 35px 95px;
-  line-height: 46px;
 }
 
 .line {
@@ -427,14 +408,9 @@ body {
 
 .why-title-text {
   display: flex;
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
 }
 
-.section-why-items {
+.why-items {
   max-width: 1025px;
   display: flex;
   flex-direction: row;
@@ -457,14 +433,6 @@ body {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
-}
-
-.why-text-item {
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
 }
 
 /*Ultimate*/
@@ -493,25 +461,16 @@ body {
 
 .ultimate-title {
   max-width: 320px;
-  color: #242f51;
-  font-family: Poppins;
-  font-size: 36px;
-  font-weight: 600;
   margin-bottom: 30px;
 }
 
 .ultimate-title-text {
   max-width: 392px;
   display: flex;
-  color: #616368;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
   margin-bottom: 50px;
 }
 
-.section-ultimate__phone {
+.ultimate-phone {
   margin: 30px -300px 30px 30px;
 }
 
@@ -532,7 +491,7 @@ body {
   line-height: 28px;
 }
 
-.section-ultimate-items {
+.ultimate-items {
   max-width: 1025px;
   display: flex;
   flex-direction: row;
@@ -567,14 +526,14 @@ body {
     flex-direction: column;
   }
 
-  .section-header-content {
+  .header-content {
     margin: 0;
     padding: 0;
   }
 }
 
 @media (max-width: 991px) {
-  .section-header-content__phone {
+  .header-phone {
     padding: 0;
     width: 100%;
     margin: auto;
@@ -629,7 +588,6 @@ body {
   .item {
     padding: 0;
     flex-direction: column;
-
     margin-bottom: 47px;
     text-align: center;
   }
@@ -656,7 +614,7 @@ body {
     align-items: center;
   }
 
-  .section-ultimate-items {
+  .ultimate-items {
     flex-direction: column;
     align-items: center;
   }
@@ -666,7 +624,8 @@ body {
     justify-content: center;
   }
 
-  .why-icon {
+  .why-icon,
+  .ultimate-icon {
     margin: auto;
   }
 
@@ -674,7 +633,7 @@ body {
     padding: 0;
   }
 
-  .section-why-items {
+  .why-items {
     display: block;
     margin: 0;
   }
@@ -688,7 +647,7 @@ body {
     margin: auto;
   }
 
-  .section-ultimate-items:first-child {
+  .ultimate-items:first-child {
     margin-top: 70px;
   }
 }
@@ -701,7 +660,7 @@ body {
     padding: 0;
   }
 
-  .section-ultimate__phone {
+  .ultimate-phone {
     margin: 0;
   }
 
