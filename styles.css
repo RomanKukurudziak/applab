@@ -671,8 +671,13 @@ body {
     margin: 0;
   }
   .why {
+    margin: auto;
+    max-width: 65%;
     margin-top: 60px;
-    max-width: 100%;
+  }
+
+  .btn {
+    margin: auto;
   }
 
   .section-ultimate-items:first-child {
