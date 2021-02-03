@@ -313,7 +313,6 @@ body {
 
 .features-phone {
   display: flex;
-  padding-left: 80px;
   padding-right: 30px;
 }
 
@@ -453,7 +452,6 @@ body {
   display: flex;
   flex-direction: row;
   margin: auto;
-  justify-content: space-between;
   margin-bottom: 50px;
 }
 
@@ -479,7 +477,7 @@ body {
 }
 
 .ultimate-phone {
-  margin: 30px -300px 30px 30px;
+  margin: 30px -300px 0 0;
 }
 
 .ultimate-title-item {
@@ -507,6 +505,46 @@ body {
   margin: auto;
 }
 
+/*Pricing*/
+
+.pricing-content {
+  align-items: center;
+  text-align: center;
+  max-width: 640px;
+  margin: 170px auto 110px auto;
+}
+
+.annually {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 55px;
+  border-radius: 29px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: #616368;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.annually:hover {
+  cursor: pointer;
+  border: 2px solid #fcae61;
+}
+
+.pricing-plan {
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  border: 1px solid lightgray;
+  border-radius: 29px;
+}
+
 @media (max-width: 575px) {
   .award {
     padding: 0 0 0 40px;
@@ -520,6 +558,10 @@ body {
 @media (max-width: 767px) {
   .nav {
     width: 575px;
+  }
+
+  .description {
+    padding: 0;
   }
 
   .big-image {
